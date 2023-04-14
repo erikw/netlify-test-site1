@@ -11,7 +11,7 @@
 
 
 <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-  <input type="hidden" name="subject" value="[Custom subject from HTML] Form name: %{formName}, site name: %{siteName}, submission ID: %{submissionId}" />
+  <input type="hidden" name="subject" data-remove-prefix value="[Custom subject from HTML] Form name: %{formName}, site name: %{siteName}, submission ID: %{submissionId}" />
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
