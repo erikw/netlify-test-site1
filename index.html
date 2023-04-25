@@ -11,6 +11,7 @@
 
 Please fill out this form!
 <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+  <input type="hidden" name="subject" value="[Custom subject from HTML] Form name: %{formName}, site name: %{siteName}, submission ID: %{submissionId} NEW6" />
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
