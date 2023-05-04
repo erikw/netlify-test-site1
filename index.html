@@ -11,7 +11,12 @@
 
 Please fill out this form!
 <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-  <input type="hidden" name="subject" data-remove-prefix value="[Custom subject from HTML] Form name: %{formName}, site name: %{siteName}, submission ID: %{submissionId} NEW7" />
+<select name="subject" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
